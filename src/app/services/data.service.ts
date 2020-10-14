@@ -7,7 +7,7 @@ import { filter, map, toArray } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class DataService {
-  private url = 'https://jsonblob.com/api/f0b33ee5-03a8-11eb-909d-27a9d4f5c8fa';
+  private url = 'https://my-json-server.typicode.com/delfiaghosh11/db/students';
   private students: any[];
   private deletedStudents = new Array();
   private event = new EventEmitter();
